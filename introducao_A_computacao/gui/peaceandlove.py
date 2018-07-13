@@ -15,3 +15,5 @@ minionLabel = Label(raiz, image=minion)
 
 minionLabel.pack(side=RIGHT)
 textoLabel.pack(side=LEFT)
+
+raiz.mainloop()

@@ -29,6 +29,6 @@ smiley = PhotoImage(file='Smiley-11-icon.png')
 smileyLabel = Label(raiz,
 	image=smiley)
 
-smileyLabel.pack(side=RIGHT)
+smileyLabel.pack(side=RIGHT)		# empurra o label para a direita
 
-#root.mainloop()
+raiz.mainloop()

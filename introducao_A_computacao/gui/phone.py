@@ -1,4 +1,4 @@
-from tkinter import Tk, Label, RAISED
+from tkinter import Tk, Label, RAISED # Borda elevada
 raiz = Tk()
 labels = [['1','2','3'],
           ['4','5','6'],
@@ -16,3 +16,4 @@ for r in range(4):		# para cada linha r=0,1,2,3
 		# coloca label na linha r e coluna c
 		label.grid(row=r, column=c)
 
+raiz.mainloop()
