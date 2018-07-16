@@ -17,3 +17,7 @@ button = Button (raiz,
 	command=clicked)		# manipulador de evento clique do botao
 
 button.pack() 				# posicionado-o na raiz
+
+
+
+raiz.mainloop()
