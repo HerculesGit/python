@@ -1,3 +1,4 @@
+'''
 from cliente import Cliente # nome do arquivo e nome da Classe
 from contas import Conta
 
@@ -26,3 +27,16 @@ conta.extrato()
 
 conta.resumo()
 print(conta)
+'''
+from cliente import Cliente
+from bancos import Banco
+from contas import Conta
+
+joao = Cliente('joao gabriel','99999')
+maria = Cliente('Maria da silva', '9919191')
+jose = Cliente('jose da emanoel', '8388181')
+
+contaJM = Conta([joao],[maria],100)
+contaJ = Conta
+
+
